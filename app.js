@@ -18,7 +18,7 @@ form.addEventListener("submit", (e) => {
     <td>$${price}</td>
     <td>
     <button class="btn btn-danger btn-sm delete">Delete</button>
-    <button class="btn btn-success btn-sm edit">Edit</button>
+    <button class="btn btn-warning btn-sm edit">Edit</button>
     </td>
     `;
     table.appendChild(tr);
